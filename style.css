@@ -1,0 +1,42 @@
+
+.container{
+  padding: 2%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px, 340px));
+  grid-template-rows:(auto-fit,minmax(250px, 300px));
+  margin: 100px;
+}
+
+img{
+  width: 300px;
+  height: 200px;
+}
+span{
+  margin-left: 102px;
+  color: blue;
+}
+.price{
+  color: black;
+  text-decoration: underline;
+}
+h1 span{
+  color: green;
+  margin-left: 0;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 20
+  px;
+}
+nav{
+  float:right;
+}
+a{
+  font-size: 20px;
+  border: solid;
+  border-radius: 10px;
+  margin: 12px;
+}
+
+
