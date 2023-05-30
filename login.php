@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="signup.css">
 </head>
 <body>
-  <h3>Order processing system</h3>
+  <h3></h3>
 
   <form action="login.php" method="POST">
     <fieldset>

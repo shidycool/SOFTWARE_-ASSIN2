@@ -6,35 +6,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
-  <link rel=""
+  
 </head>
 <body>
-<div class="header">
-        <h1>order<span>processing</span>system</h1>
+   <nav>
+      <a href="login.php">LOG IN</a>
+      <a href="signup.php">SIGN UP</a>
+    </nav>
+    <div class="header">
+        <h1>order processing system</h1>
       </div>
-      <br><br><br><br><br><br>
-        <br><br><br><br><br>
-        <br><br><br><br>
-        <hr>
-      <div class="links">
-        <li><a href=""></a></li>
-        <li><a href="..\dailystar_shoes.com\footware.html">Shoes</a></li>
-        <li><a href="..\infinitycreative.com\design.html">Designers</a></li>
-        <li><a href="..\contact\contact.html">Contact us</a></li>
-        <li><a href="#"></a></li>
-      </div>
+      
 
-      <div>
-        <img src="cereal1.jpeg" alt="MAIZE">
-        <div>
-          <h3>
-            <span>Dried Maize</span>
-            <span>Ksh. 5,000</span>
-          </h3>
-          
-          
+      <div class="container">
+        <div class="cereal_all">
+          <img src="cereal 1.jpeg" alt="MAIZE">
+          <div  class="cereal_1">
+            <h3>
+              <span>Dried Maize</span><br>
+              <span class="price">Ksh. 5,000</span>
+              <input type="checkbox" name= "Maize">
+            </h3>
+          </div>
         </div>
-      </div>
-  
+
+        <div class="cereal_all">
+          <img src="cereal 2.webp" alt="MAIZE">
+          <div  class="cereal_2">
+            <h3>
+              <span> Beans</span><br>
+              <span class="price">Ksh. 6,000</span>
+              
+              <input type="checkbox" name= "Beans">
+    
+            </h3>
+          </div>
+        </div>
+    
+        <div class="cereal_all">
+          <img src="cereal 3.jpg" alt="Lentils">
+          <div  class="cereal_3">
+            <h3>
+              <span>Lentils </span><br>
+              <span class="price">Ksh. 6,500</span>
+              <input type="checkbox" name= "Lentils">
+            </h3>
+          </div>
+        </div>
+
+        <div class="cereal_all">
+          <img src="cereals 4.webp" alt="GROUNDNUT">
+          <div  class="cereal_4">
+            <h3>
+              <span> Groundnuts</span><br>
+              <span class="price">Ksh. 4,000</span>
+              <input type="checkbox" name= "Groundnuts">
+            </h3>
+          </div>
+        </div>
+    
+      
+      <div class="cereal_all">
+          <img src="cereal 6.jpg" alt="Lentils">
+          <div  class="cereal_6">
+            <h3>
+              <span> Greengrams</span><br>
+              <span class="price">Ksh. 5,500</span>
+              <input type="checkbox" name= "Greengrams">
+            </h3>
+          </div>
+        </div>
+
+        <div class="cereal_all">
+          <img src="cereal 7.jpg" alt="Green peas">
+          <div  class="cereal_7">
+            <h3>
+              <span> Green peas</span><br>
+              <span class="price">Ksh. 6,500</span>
+              <input type="checkbox" name= "Green peas">
+            </h3>
+          </div>
+        </div>
+        </div>
 </body>
 </html>
