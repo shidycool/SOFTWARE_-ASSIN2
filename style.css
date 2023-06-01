@@ -1,10 +1,15 @@
+body{
+  background-color: rgb(tomato);
+}
+
 
 .container{
   padding: 2%;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(150px, 340px));
-  grid-template-rows:(auto-fit,minmax(250px, 300px));
+  grid-template-rows:(auto-fit,minmax(250px, 100px));
   margin: 100px;
+  
 }
 
 img{
@@ -19,7 +24,7 @@ span{
   color: black;
   text-decoration: underline;
 }
-h1 span{
+h1 {
   color: green;
   margin-left: 0;
 }
@@ -38,5 +43,13 @@ a{
   border-radius: 10px;
   margin: 12px;
 }
+p{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  color: rgb(32, 21, 21);
 
+  
 
+}

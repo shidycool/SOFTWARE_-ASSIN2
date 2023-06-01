@@ -11,9 +11,10 @@
   <link rel="stylesheet" href="signup.css">
 </head>
 <body>
-  <h3></h3>
+  <div class="container">
+  <h3>Log In</h3>
 
-  <form action="login.php" method="POST">
+  <form action="con2.php" method="POST">
     <fieldset>
       <label for="username">Username: </label><br>
       <input type="text" name="username">
@@ -27,5 +28,6 @@
     <button type="submit">SUBMIT</button>
 
   </form>
+  </div>
 </body>
 </html>

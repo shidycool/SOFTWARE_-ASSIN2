@@ -3,6 +3,7 @@
   $email = $_POST['email'];
   $pass = $_POST['passwrd'];
   $conf_pass = $_POST['conf_passwrd'];
+  $phone_number = $_POST['phone_number'];
 
 
   $con = mysqli_connect("localhost","root","","order_processing");
@@ -11,18 +12,13 @@
     echo"Error: ".mysqli_connect_error();
     exit();
   }
-      if( $username="" || $pass="" || $email=""){
-        echo"Null records not inserted";
-        ?>
-        <meta http-equiv="refresh" content="5, signup.php">
-        <?php
-      }else{
         if($pass == $conf_pass){
-          $sql = "INSERT INTO clients (username, email, pass, reg_time )
-            VALUES('$username','$pass','$email',now())";
+          $sql = "INSERT INTO clients (username, phone_number, email, pass, reg_time )
+            VALUES('$username','$phone_number','$email','$pass',now())";
 
             if(mysqli_query($con, $sql)){
               echo"Account Created";
+              header('location:login.php');
             }
             else{
               echo"Unable to connect, please try again!";
@@ -36,7 +32,6 @@
             ?>
             <meta http-equiv="refresh" content="5, signup.php"><?php
           }
-        }
 
     mysqli_close($con);
 

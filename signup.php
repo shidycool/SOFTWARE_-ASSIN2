@@ -30,13 +30,18 @@
       </fieldset>
 
       <fieldset>
+        <label for="phone_number">Phone number </label><br>
+        <input type="tel"placeholder="+25471234567" name="phone_number" required>
+      </fieldset>
+
+      <fieldset>
         <label for="passwrd">Password: </label><br>
         <input type="password"placeholder="password" name="passwrd" required>
       </fieldset>
       
       <fieldset>
         <label for="conf_passwrd">Confirm password: </label><br>
-        <input type="password" name="conf_passwrd" required>
+        <input type="password"placeholder="password" name="conf_passwrd" required>
       </fieldset>
 
       <button type="submit">SUBMIT</button>
