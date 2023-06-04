@@ -27,7 +27,7 @@
         <p>Welcome to our advanced order processing system specifically designed for the cereal and legumes industry.</p>
         <p> We understand the unique challenges and complexities of managing orders in this sector, and our system is here to simplify and optimize your operations.</p>
         <p>Seamlessly integrated into your business, our user-friendly platform ensures efficient order fulfillment from start to finish.</p>
-        <p>make your order today, at affordable pices.</p>
+        <p>make your order today, at affordable price.</p>
       </div>
       
       <form action ="https://formspree.io/f/xzbqlbzk" method ="POST">

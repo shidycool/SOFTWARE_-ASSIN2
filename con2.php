@@ -26,7 +26,7 @@ $result = mysqli_query($con,$sql);
     $_SESSION['id'] = $id;
     $_SESSION['email'] = $email;
     $_SESSION['phone_number'] = $phone_number;
-    header('location:home.php');
+    header('location:Product.php');
   }
   else{
     header('location:login.php');
