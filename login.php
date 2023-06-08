@@ -15,7 +15,8 @@
   <h3>Log In</h3>
 
   <form action="con2.php" method="POST">
-    <fieldset>
+  
+<fieldset>
       <label for="username">Username: </label><br>
       <input type="text" name="username">
     </fieldset>
